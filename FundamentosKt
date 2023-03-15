@@ -73,3 +73,58 @@ fun main() {
     
 }
 //===========================================================================================================
+ fun main() {
+   //concatenação
+  //
+  //
+  //
+  //
+  /*
+  var tartaruga = "michael jackson" 
+    
+    println("o nome da tartaruga do Mbappé é $tartaruga")
+    println("o nome da tartaruga do Mbappé é" + tartaruga)
+    
+    var leclerc = 2
+    var alonso = 1
+    
+    println("A posição do lek lek + a posição do Alonso são ${(leclerc + alonso)}")
+    
+    println("A posição do lek lek + a posição do Alonso são" + (leclerc + alonso))
+    
+    var  nome = "maria"
+    var idade = 15
+    var cidade = "São Paulo"
+    
+    println("O meu nome é $nome, eu tenho $idade anos e moro em $cidade")
+    */
+    //
+    
+    //Exercício - * Faça um diálogo de no mínimo 15 linhas, nele deve conter,
+    //os nomes de quem estão falando de forma concatenada usando váriaveis
+    //* Usem a criatvidade 
+    //
+    //
+    var nome1 = "Gina"
+    var nome2 = "Heloisa"
+    var livro = "Harry Potter"
+    var casa1 = "Grifinoria"
+    var casa2 = "Sonserina"
+    var casa3 = "lufa-lufa"
+    
+    println("$nome1: Mana vi os filmes de $livro") 
+    println("$nome2: Gostou? qual o seu filme favorito?") 
+    println("$nome1: Gostei, meu favorito é a Ordem da Fenix") 
+    println("$nome2: Luna Lovegood a maioral que temos!") 
+    println("$nome1: mano....sim! inclusive fiz o teste das casas de Hogwarts") 
+    println("$nome2: quando eu fiz deu $casa2") 
+    println("$nome1: Todos de acordo que a $casa3 é a melhor né?")
+    println("$nome1: A minha é a $casa1")
+    println("$nome2: Boatos que só tem gente insuportavel na $casa1"
+    
+    
+    
+    
+    
+    
+}
