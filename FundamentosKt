@@ -105,26 +105,43 @@ fun main() {
     //* Usem a criatvidade 
     //
     //
+   
+   fun main() {
     var nome1 = "Gina"
     var nome2 = "Heloisa"
     var livro = "Harry Potter"
     var casa1 = "Grifinoria"
     var casa2 = "Sonserina"
     var casa3 = "lufa-lufa"
-    
-    println("$nome1: Mana vi os filmes de $livro") 
-    println("$nome2: Gostou? qual o seu filme favorito?") 
+ 
+
+    println("$nome1: Mana vi os livros de $livro") 
+    println("$nome2: Gostou? qual o seu livro favorito?") 
     println("$nome1: Gostei, meu favorito é a Ordem da Fenix") 
     println("$nome2: Luna Lovegood a maioral que temos!") 
     println("$nome1: mano....sim! inclusive fiz o teste das casas de Hogwarts") 
     println("$nome2: quando eu fiz deu $casa2") 
     println("$nome1: Todos de acordo que a $casa3 é a melhor né?")
     println("$nome1: A minha é a $casa1")
-    println("$nome2: Boatos que só tem gente insuportavel na $casa1"
-    
-    
-    
-    
+    println("$nome2: Boatos que só tem gente insuportavel na $casa1")
+    println("$nome1: Minha filha, voce é da $casa2 te orienta")
+    println("$nome2: Confessa que voce queria ser da $casa2 mona")
+    println("$nome1: Nem que me pagassem") 
+    println("$nome2: Mas e A criança amaldiçoada....que bomba horrorosa")
+    println("$nome1: O Cedric voltando dos mortos foi a mais")
+    println("$nome2: J.K deveria cancelar aquele troço")
+    println("$nome1: J.K? quem escreveu $livro foi a Hermione")
+    println("$nome2: Mano...sim vamos fingir que ela não existe, mas qual vai ser a proxima saga?")
+    println("$nome1: Provavelmente vai ser jogos vorazes")
+    println("$nome2: Òtimo vamos começar a ler juntas.")
+     
+
+
     
     
 }
+//----------------------------------------------------------------------------------------------------------------------------------------
+    
+    
+    
+ 
