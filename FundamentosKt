@@ -171,5 +171,118 @@ fun main() {
   
 }
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------
+   fun main() {
+ var n1 = 7
+    var n2 = 3
+   /* 
+    println("||************ Minha Calculadora yee ☺ ***********||")
+    println("||************************************************||")
+    println("||********_______******************_______********||")
+    println("||************************************************||")
+    println("||********       ******************       ********||")
+    println("||********       ******************       ********||")
+    println("||************************************************||")
+    println("||*********************  *************************||")
+    println("||*********************  *************************||")
+    println("||************************************************||")
+    println("||************************************************||")
+    println("||***   ************************************   ***||")
+    println("||***                                          ***||")
+    println("||************************************************||")
+    println("||************************************************||")
+    println("||***************** Bem Vindos ☺ *****************||")
+    println("||** Soma entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 + n2)+"*********************************||")
+    println("||************************************************||")
+    println("||** Subtração entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 - n2)+"*********************************||")
+    println("||************************************************||")
+    println("||** Multiplicação entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 * n2)+"*********************************||")
+    println("||************************************************||")
+    println("||** Divisão entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 / n2)+"*********************************||")
+    println("||************************************************||")
+    println("||** Módulo entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 % n2)+"*********************************||")
+    println("||************************************************||")
+   */
     
+    //operadores Relacionais
+    //
+    // == -> igual a...
+    // != -> diferente de...
+    // !  -> negando valor
+    // >  -> maior que... 
+    // <  -> menor que... 
+    // >= -> maior ou igual a... 
+    // <= -> menor ou igual a... 
+    // 
+    // 
+    // ++ -> adiciona 1 a um valor
+    // -- -> subtrai  1 a um valor
+    // += -> adiciona um determinado valor a um valor
+    // -= -> subtrai um determinado valor de um valor
+    
+    /*
+    var claudetty = 50 
+    var josias = 30 
+    var berenice = 90
+    var bernnadetty = 80 
+   
+    println(claudetty)
+    claudetty++ 
+    println(claudetty)
+    println(josias)
+    josias-- 
+    println(josias) 
+    println("")
+    println(berenice)
+    berenice += 10 
+    println(berenice)
+    println("")
+    println(bernnadetty)
+    bernnadetty -= josias
+    println(bernnadetty)
+    */
+    
+    
+    
+    
+    
+    
+    //condições if...else 
+    
+    //se... senão
+    //
+    //etsrutura:
+    //
+    //if...else simples
+    //
+    //if(condição){
+    //ação 
+    //}else{
+    //ação
+    //}
+    
+    /*
+    var interruptor = false 
+    
+    if(interruptor == true){
+       println("luz acesa")
+    }else{
+       println("luz apagada")}
+    
+    */
+    
+    var fome = true 
+    
+    if(fome){
+        println("Alimente-se!")
+    }else{
+        println("Alimentou-se")
+    } 
+        
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------//
  
