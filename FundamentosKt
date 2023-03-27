@@ -285,4 +285,177 @@ fun main() {
         
 }
 ----------------------------------------------------------------------------------------------------------------------------------------------------//
+
+fun main() {
+   
+ var n1 = 7
+    var n2 = 3
+   /* 
+    println("||************ Minha Calculadora yee ☺ ***********||")
+    println("||************************************************||")
+    println("||********_______******************_______********||")
+    println("||************************************************||")
+    println("||********       ******************       ********||")
+    println("||********       ******************       ********||")
+    println("||************************************************||")
+    println("||*********************  *************************||")
+    println("||*********************  *************************||")
+    println("||************************************************||")
+    println("||************************************************||")
+    println("||***   ************************************   ***||")
+    println("||***                                          ***||")
+    println("||************************************************||")
+    println("||************************************************||")
+    println("||***************** Bem Vindos ☺ *****************||")
+    println("||** Soma entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 + n2)+"*********************************||")
+    println("||************************************************||")
+    println("||** Subtração entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 - n2)+"*********************************||")
+    println("||************************************************||")
+    println("||** Multiplicação entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 * n2)+"*********************************||")
+    println("||************************************************||")
+    println("||** Divisão entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 / n2)+"*********************************||")
+    println("||************************************************||")
+    println("||** Módulo entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 % n2)+"*********************************||")
+    println("||************************************************||")
+   */
+    
+    //operadores Relacionais
+    //
+    // == -> igual a...
+    // != -> diferente de...
+    // !  -> negando valor
+    // >  -> maior que... 
+    // <  -> menor que... 
+    // >= -> maior ou igual a... 
+    // <= -> menor ou igual a... 
+    // 
+    // 
+    // ++ -> adiciona 1 a um valor
+    // -- -> subtrai  1 a um valor
+    // += -> adiciona um determinado valor a um valor
+    // -= -> subtrai um determinado valor de um valor
+    
+    /*
+    var claudetty = 50 
+    var josias = 30 
+    var berenice = 90
+    var bernnadetty = 80 
+   
+    println(claudetty)
+    claudetty++ 
+    println(claudetty)
+    println(josias)
+    josias-- 
+    println(josias) 
+    println("")
+    println(berenice)
+    berenice += 10 
+    println(berenice)
+    println("")
+    println(bernnadetty)
+    bernnadetty -= josias
+    println(bernnadetty)
+    */
+    
+    
+    
+    
+    
+    
+    //condições if...else 
+    
+    //se... senão
+    //
+    //etsrutura:
+    //
+    //if...else simples
+    //
+    //if(condição){
+    //ação 
+    //}else{
+    //ação
+    //}
+    
+    /*
+    var interruptor = false 
+    
+    if(interruptor == true){
+       println("luz acesa")
+    }else{
+       println("luz apagada")}
+    */
+    /*
+    
+    var fome = true 
+    
+    if(fome){
+        println("Alimente-se!")
+    }else{
+        println("Alimentou-se")
+       }
+*/
+  
+  /*
+   var senha = "333a"
+   
+   if(senha == "azeitona"){
+       println("Bem-vindo sr Stark")
+   }else{
+       println("senha incorreta, tente novamente")
+   }
+   
+   //if...else composto
+   //
+   //com o if...else composto, somos permitidos, comparar mais de duas condiçõs(o simples e o else), através o 'else if'
+   //
+   
+   var coracoes = 5
+   if(coracoes >=5){
+       prinrln("Voce está muito saúdavel! Parabénns!")
+   }else if (coracoes == 4){ 
+       println("voce tá de boa")
+   }else if (coracoes == 3){ 
+       println("Cuidado com a sua saúde, durmar melhor")
+   }else if (coracoes == 2){ 
+       println("vá se tratar voce não está bem...")
+   }else if(coracoes == 1)
+       println ("Estado crítico!!!")
+    }else{
+        println("Novo reforço do Vasco")
+    }
+    */
+        
+     // 1 - faça um programa usando duas variáveis que representam cada uma , um número.
+     //ele deve verificar qual dos dois é o maior número e imprimi-lo no console
+     
+        
+     var setecéusparaBeatriz = 43 
+     var itacoisa = 80 
+        println("reaposta 1") 
+     if(setecéusparaBeatriz <= itacoisa){
+         println("livro de merda")
+     }else{
+         println("livro top")
+     }
+   //2-
+   println("resposta 2")
+   var pablofofo = 1
+     if(pablofofo > 0){
+   println("Pablo seu fofo")
+     }else if(pablofofo < 0){
+         println("Pablo seu merda")
+     }else{
+         println("Pablo seu lindo")
+     }
+     
+}
+     
+//---------------------------------------------------------------------------------------------------------------------------------------------------------    
+  
+  
  
