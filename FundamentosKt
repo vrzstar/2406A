@@ -504,3 +504,61 @@ var setecéusparaBeatriz = 43
 // FF ->  F
  
 //===============================================================================================================================================
+
+fun main() {
+//operadores Lógicos 
+// && ->  e -> se todas as condições forem verdadeiras, o resultado será verdadeiro 
+// || -> ou -> se pelo menos uma condição for verdadeira, o resultado será verdadeiro
+// 
+// Tabela verdade 
+// 
+// &&
+// VVV -> V
+// VVF -> F
+// FFF -> F
+// FVF -> F
+// FVV -> F
+// VFV -> F
+// 
+// ||
+// VV ->  V
+// VF ->  V
+// FV ->  V
+// FF ->  F
+// 
+
+ /*
+    
+// Minha mãe pediu para eu ir na loja de talheres e ela falou: 
+// traga uma concha de feijão, se tiver garfo, faca e colher
+// 
+var garfo = false 
+var faca  = true
+var colher = true
+    
+//println(garfo && faca)
+println(garfo &&(faca || colher))
+*/
+    
+// show do Péricles 
+// pro cidadão menor de 18 entrar, ele precisa ter pelo menos 12 anos e acompanhado dos pais
+// 
+var idade = 15 
+var comPais = true
+    
+if(idade > 18){ 
+    
+if((idade >= 12 && comIdentidade == true) || comPais == true){ 
+    println("Aproveite o show.. junto com os pais!!") 
+}else{ 
+    println("mete marcha pra casa")  
+} 
+    
+}else{ 
+    println(" Aproveite o show!!") 
+    
+}  
+    
+
+}
+//------------------------------------------------------------------------------------------------------------------------------------------------
