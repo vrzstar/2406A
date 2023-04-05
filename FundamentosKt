@@ -562,3 +562,94 @@ if((idade >= 12 && comIdentidade == true) || comPais == true){
 
 }
 //------------------------------------------------------------------------------------------------------------------------------------------------
+fun main() {
+   // show do Péricles 
+// pro cidadão menor de 18 entrar, ele precisa ter pelo menos 12 anos e acompanhado dos pais
+// 
+    var idade = 15 
+    var comPais = true 
+    var comIdentidade = true 
+
+    if(idade > 18){ 
+
+    if((idade >= 12 && comIdentidade == true) || comPais == true){ 
+        println("Aproveite o show.. junto com os pais!!") 
+    }else{ 
+        println("mete marcha pra casa")  
+    } 
+
+    }else{ 
+        println(" Aproveite o show!!") 
+
+    }  
+/*
+ 
+// show do Péricles 
+// pro cidadão menor de 18 entrar, ele precisa ter pelo menos 12 anos e acompanhado dos pais
+// 
+var idade = 15 
+var comPais = true
+    
+if(idade > 18){ 
+    
+if((idade >= 12 && comIdentidade == true) || comPais == true){ 
+    println("Aproveite o show.. junto com os pais!!") 
+}else{ 
+    println("mete marcha pra casa")  
+} 
+    
+}else{ 
+    println(" Aproveite o show!!") 
+    
+}  
+
+var corações = 1
+var vidas = 3 
+    
+if(coeacoes == 0 && vidas <= 0){
+println("Game Over!")
+}else{ 
+println("O jogo continua")
+
+*/
+
+//when - Quando
+//
+//Comparação de quando um valor for igual a um determinado valor, uma determinada ação será executada
+//
+//Estrutura do when
+//
+//var  auxiliar = valor 
+//
+//when(auxiliar){ 
+//
+//valor -> {ação}
+//valor -> {ação}
+//valor -> {ação}
+//valor -> {ação}
+//else ->  {ação} 
+//}
+// será usado geralmente quando durante o programa o valor da variável não for estático, ou seja, ele estiver mudado
+// 
+    var mes = 5 
+
+    when(mes){
+        1 -> {println("Lisboa")
+        mes++ 
+        }
+        2 -> {println("Nova York")}
+        3 -> {println("Rio de Janeiro")}
+        4 -> {println("São Paulo")}
+        5 -> {println("Keylandia")}
+        6 -> {println("Miwaukee")}
+        7 -> {println("Barcelona")}
+        8 -> {println("Springfield")}
+        9 -> {println("los Polos Hermanos")}
+        10 -> {println("Elmore")}
+        11 -> {println("Toronto")}
+        12 -> {println("Seoul")}
+        else -> {println("Acordou")}
+    }
+}
+
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
