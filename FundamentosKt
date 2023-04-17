@@ -767,3 +767,104 @@ fun main() {
     
     
 ===============================================================================================================================================//
+fun main() {
+   //Laços de repetição - Loops
+ //
+ //  repeat - repita
+ //  while  - enquanto
+ //  do...while - faça...enquanto
+ //  for - para
+ //  
+ //repeat - repita
+ //vai repetir uma determinada  ação ou determinada quantidade de vezes
+ //
+ //Estrutura do repeat
+ //
+ // repeat(númeroVezes){
+ // ação
+ // }
+ // 
+ /*
+ repeat(8){
+     println("isso é um teste, testando, testando")
+ }
+ 
+ var Apartamento = 1 
+    
+ repeat(15){
+     println(Apartamento ++)
+     
+ }
+ */
+ 
+ //Laço while - enquanto
+ //
+ // enquanto uma condição for verdadeira, uma determinada ação estará sendo executada
+ // Estrutura do while
+ // 
+ // while(condição)
+ // ação
+ // }
+ 
+/*
+    var contador = 0 
+    while(contador < 10){
+    println(contador++)
+    
+    } 
+    
+    var bateria = 100 
+    
+    while(bateria > 0){ 
+        println("$bateria%") 
+        
+    when(bateria){
+        15 -> {println("Aparelho descarregando conecte no carregador!")}
+        0 -> {println("Aparelho desligando!")}
+    }
+    bateria--
+    }
+   */
+    
+    // while -> Enquanto uma determinada ação for verdadeira, uma determinada ação será executada. 
+    
+   // do...while
+   // 
+   // uma determinada ação será executada, enquanto uma determinada condição for verdadeira
+   
+   //Estrutura: 
+   //
+   //do{ 
+   //ação 
+   // }while(condição)
+  
+  /*
+  var contador = 0 
+  do{
+      println(contador++)
+  }while(contador > 10)
+  */  
+ 
+  //for - para
+  //para cada item em um intervalo ou colection, uma determinada ação será executada
+  //
+  //estrutura:
+  //
+  //for(vAuxiliar in inrvalo colection)
+  //ação
+  //} 
+  //
+ 
+ for(pneu in 1..4){
+     println("$pneu")
+ }   
+    
+    
+    
+    
+    
+    
+    
+    
+}
+==================================================================================================================================================//
