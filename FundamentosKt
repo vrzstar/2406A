@@ -985,3 +985,145 @@ fun main() {
 }
 
 ========================================================================================================================================================//
+fun main() {
+      //colections
+  //
+  //intervalos, listas, arrays, vetores etc
+  
+  //tipos de listas
+  //
+ /*  var list1 = listOf("tartaruga", 0, 0.1, true)
+    
+  println(list1) // exibir lista
+  println(list1.size) // retorna tamanho da lista
+  println(list1.lastIndex) // retornar o último index 
+  println(list1[2]) // exibir o valor de um determinado index
+  println(list1.contains("Tartaruga")) // compara se existe um determinado valor a lista
+  println(list1.indexOf(0)) // indica o index de um determinado valor
+  println(list.first()) // o valor do primeiro index 
+  println(list.last()) // o valor do último index 
+  println(list1.isEmpty()) // compara se a lista está vazia
+  
+  //<tags> 
+  var list2 = listOf<String>("LeBron James", "Stephen Curry", "Michael Jordan", "Pernaa Longa", "Klay Thompson")
+  // Lista acima especifica o tipo mde dados que vai ser guardado 
+  //
+  //   Obs. listof() -> imutável
+  //   próxima aula.... mutablelistOf()
+  //   mutablelistOf() -> armazena qualquer tipo de valores conjuntos 
+  //   mutablelistOf<tipoDeValor -> armazena valores especificos de seu tipo 
+  //   
+  var comida = mutablelistOf<string>("Strogonoff", "Pate de Frango", "Lasanha", "Feijoada")
+  
+  println(comida)
+  
+  //propriedades 
+  //
+  comida.add("Macarrão") //adiciona um valor a lista 
+  println(comida)
+  comida.add(3, "cuscuz") //adiciona um valor a um index em específico na lista
+  println(comida)
+  comida.remove("Pate de Frango") //remove um valor específico da lista 
+  println(comida)
+  comida.removeAt(0) //remove um valor de um index em específico
+  println(comida)
+  comida.set(2, "Pastel de carne seca") //substitui um valor pelo seu index
+  println(comida)
+  comida.clear() //remover todos os valores da lista
+  println(comida)
+  */
+ //Exercício
+ //
+ //
+ /*
+ var aluno = mutableListOf<String>("Gabriela", "gisele", "Laura", "Maria", "Sarah") 
+ 
+ aluno.add("Bruna")
+ println("Janeiro")
+ println(aluno)
+ 
+ 
+ aluno.add("Estela")
+ println("fevereiro")
+ println(aluno)
+ 
+ aluno.add("Anderson")
+ println("março")
+ println(aluno)
+ 
+ 
+ aluno.add("Felipe")
+ println("abril")
+ println(aluno)
+ 
+ aluno.add("Marcela")
+ println("maio")
+ println(aluno)
+ 
+ aluno.add("Miranda")
+ println("junho")
+ println(aluno)
+
+ aluno.add("Mariana")
+ println("julho")
+ println(aluno)
+ 
+ aluno.add("Larissa")
+ println("agosto")
+ println(aluno)
+ 
+ aluno.add("Julia")
+ println("setembro")
+ println(aluno)
+ 
+ aluno.add("Vitor")
+ println("outubro")
+ println(aluno)
+ 
+ aluno.add("Philipe")
+ println("novembro")
+ println(aluno)
+ 
+ aluno.add("Talita")
+ println("dezembro")
+ println(aluno)
+ */
+ 
+ //POO
+ //
+ //Programação Orientada a objetos 
+ //
+ //Objetivos: Simular atividades e situações do mundo real 
+ //
+ //Objeto - elementos que podem interagir com um sistema 
+ //
+ //Classe - Denominação de um determinado objeto
+ //
+ //Atributos - características, proriedades, parametros 
+ //
+ //Métodos - Atividades, ações, que o obj pode realizar 
+ //
+ //
+ //Herança - atributos de um obj que são HERDADOS de uma classe 
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+======================================================================================================================================================//
