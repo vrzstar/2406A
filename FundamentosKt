@@ -1150,3 +1150,41 @@ class pessoa {
     
 }
 ===============================================================================================================================================================//
+fun main() {
+   /*
+    var pessoa1 = pessoa() //instanciamos um obj
+    
+    println(pessoa1.nome)
+    println(pessoa1.idioma)
+    println(pessoa1.peso)
+    println(pessoa1.altura)
+    println(pessoa1.idade)
+    println(pessoa1.casa)
+    */
+    
+    var pessoa3 = pessoa() 
+    var animal1 = animal("Cachorro", "Pinscher", 7, "chinelo", "grande") 
+    var animal2 = animal 
+                         
+}
+
+class Animal(var especie: String, //atributos que todo animal deve ter 
+             var raca: String,
+             var idade:Int 
+             var dieta: String,
+             var porte: string){
+    
+}
+             
+
+}
+class pessoa{
+    var nome = "maria eduarda"
+    var idioma = "portugues"
+    var peso = 41.25
+    var altura = "1.60"
+    var idade = 16
+   var casa = "Sonserina"
+    
+}
+=======================================================================================================================================================================================================//
