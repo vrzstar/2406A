@@ -1188,3 +1188,33 @@ class pessoa{
     
 }
 =======================================================================================================================================================================================================//
+fun main() {
+var pessoa3 = pessoa()
+var animal2 = animal("Cachorro", "Pinscher", 7, "chinelo", "grande") 
+var animal3 = animal("Suricate", "Areia", 2, "carne", "pequeno") 
+var animal4 = animal("peixe", "palhaço", 7, "algas", "pequeno") 
+var animal5 = animal("girafa", "ocapi", 12, "folhas", "média") 
+var animal6 = animal("pinguim", "azul", 8, "peixe", "pequeno") 
+var animal7 = animal("beija-flor", "cambada", 4, "néctar", "pequeno") 
+var animal8 = animal("golfinho", "roaz", 21, "peixe", "médio") 
+var animal9 = animal("raposa", "lagopus", 13, "ratos", "médio") 
+var animal10 = animal("doninha", "furão", 12, "sementes", "pequeno") 
+var animal11 = animal("morcego", "Pinscher", 7, "chinelo", "grande") 
+var animal12 = animal("Cachorro", "Pinscher", 7, "chinelo", "grande") 
+var animal13 = animal("Cachorro", "Pinscher", 7, "chinelo", "grande") 
+var animal14 = animal("Cachorro", "Pinscher", 7, "chinelo", "grande") 
+var animal15 = animal("Cachorro", "Pinscher", 7, "chinelo", "grande") 
+var animal16 = animal("Cachorro", "Pinscher", 7, "chinelo", "grande") 
+var animal17 = animal("Cachorro", "Pinscher", 7, "chinelo", "grande") 
+var animal18 = animal("Cachorro", "Pinscher", 7, "chinelo", "grande") 
+var animal19 = animal("Cachorro", "Pinscher", 7, "chinelo", "grande") 
+var animal20 = animal("Cachorro", "Pinscher", 7, "chinelo", "grande")  
+}
+
+class Animal(var especie: String, //atributos que todo animal deve ter 
+             var raca: String,
+             var idade:Int 
+             var dieta: String,
+             var porte: string){
+    
+}
