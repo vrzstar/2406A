@@ -1218,3 +1218,126 @@ class Animal(var especie: String, //atributos que todo animal deve ter
              var porte: string){
     
 }
+fun main() {
+    
+    var pessoa1 = Pessoa() //instanciamos um obj
+    /*
+    println(pessoa1.peso) //Exibir um atributo de um obj
+    println(pessoa1.altura) 
+    pessoa1.nome = "Edinaldo Pereira" //alterar um valor de um atributo de um obj
+    println(pessoa1.nome + ", "+pessoa1.idade)
+    
+}
+
+class Pessoa {
+    
+    var nome = ""
+    var idade = 0
+    var altura = 23.4
+    var peso = 70.12
+    var profissao = "" 
+    
+}
+*/
+// Exercício -> Faça uma apresentação sua utiizando a classe Pessoa() já criada e utilizando pelo menos,
+// todos os atributos que existem na classe
+ /*
+ var pessoa2 = Pessoa()
+ pessoa2.nome = "Anderson"
+ pessoa2.idade = 16
+ pessoa2.nacionalidade = "brasileiro"
+ pessoa2.idioma = "português"
+ pessoa2.profissao = "procura experiência"
+ println("Meu nome é ${pessoa2.nome}, eu tenho ${pessoa2.idade}, eu sou ${pessoa2.nacionalidade}, eu falo ${pessoa2.idioma}, eu estou à ${pessoa2.profissao}.")
+ */
+ 
+ var pessoa3 = Pessoa()
+ var animal1 = Animal("cachorro", "pinscher", 7, "ração pedigree", "pequeno")
+ var animal2 = Animal("passarinho", "canário-da-terra", 2, "alpiste", "pequeno")
+ var animal3 = Animal("tartaruga", "tartaruga-da-madeira", 100, "algas", "pequeno")
+ var animal4 = Animal("leão", "leão-branco", 10, "carnívoro", "grande")
+ var animal5 = Animal("tigre", "tigre-de-bengala", 7, "carnívoro", "grande")
+ var animal6 = Animal("onça", "onça-pintada", 9, "carnívoro", "grande")
+ var animal7 = Animal("girafa", "girafa-reticulada", 15, "folhas das árvores", "grandíssimo")
+ var animal8 = Animal("tubarão", "tubarão-martelo", 23, "carnívoro", "grande")
+ var animal9 = Animal("gato", "laranja", 10, "petisco", "pequeno")
+ var animal10 = Animal("cavalo", "cavalo-baixadeiro", 20, "feno", "grande")
+ var animal11 = Animal("baleia", "baleia-azul", 150, "grill", "GRANDÍSSIMO")
+ var animal12 = Animal("rato", "camundongo", 3, "queijo", "pequeno")
+ var animal13 = Animal("abelha", "abelha-africana", 1, "pólen", "pequeno")
+ var animal14 = Animal("zebra", "zebra-das-montanhas", 20, "feno e mato", "grande")
+ var animal15 = Animal("morcego", "morcego-vampiro", 5, "frutas", "pequeno")
+ var animal16 = Animal("macaco", "orangotango", 5, "banana", "médio")
+ var animal17 = Animal("hipopótamo", "hipopótamo-comum", 25, "planta e frutas", "grande")
+ var animal18 = Animal("formiga", "formiga-tanajura", 1, "planta e açúcar", "pequenininhos")
+ var animal19 = Animal("elefante", "elefante-africano-de-savana", 80, "planta e frutas", "GRANDES DEMAIS")
+ var animal20 = Animal("lobo", "lobo-guará", 10, "carnívoros", "médio")
+ 
+ println("${animal1.especie}, ${animal1.raca}, ${animal1.idade}, ${animal1.dieta}, ${animal1.porte}")
+ println("${animal2.especie}, ${animal2.raca}, ${animal2.idade}, ${animal2.dieta}, ${animal2.porte}")
+ println("${animal3.especie}, ${animal3.raca}, ${animal3.idade}, ${animal3.dieta}, ${animal3.porte}")
+ println("${animal4.especie}, ${animal4.raca}, ${animal4.idade}, ${animal4.dieta}, ${animal4.porte}")
+ println("${animal5.especie}, ${animal5.raca}, ${animal5.idade}, ${animal5.dieta}, ${animal5.porte}")
+ println("${animal6.especie}, ${animal6.raca}, ${animal6.idade}, ${animal6.dieta}, ${animal6.porte}")
+ println("${animal7.especie}, ${animal7.raca}, ${animal7.idade}, ${animal7.dieta}, ${animal7.porte}")
+ println("${animal8.especie}, ${animal8.raca}, ${animal8.idade}, ${animal8.dieta}, ${animal8.porte}")
+ println("${animal9.especie}, ${animal9.raca}, ${animal9.idade}, ${animal9.dieta}, ${animal9.porte}")
+ println("${animal10.especie}, ${animal10.raca}, ${animal10.idade}, ${animal10.dieta}, ${animal10.porte}")
+ println("${animal11.especie}, ${animal11.raca}, ${animal11.idade}, ${animal11.dieta}, ${animal11.porte}")
+ println("${animal12.especie}, ${animal12.raca}, ${animal12.idade}, ${animal12.dieta}, ${animal12.porte}")
+ println("${animal13.especie}, ${animal13.raca}, ${animal13.idade}, ${animal13.dieta}, ${animal13.porte}")
+ println("${animal14.especie}, ${animal14.raca}, ${animal14.idade}, ${animal14.dieta}, ${animal14.porte}")
+ println("${animal15.especie}, ${animal15.raca}, ${animal15.idade}, ${animal15.dieta}, ${animal15.porte}")
+ println("${animal16.especie}, ${animal16.raca}, ${animal16.idade}, ${animal16.dieta}, ${animal16.porte}")
+ println("${animal17.especie}, ${animal17.raca}, ${animal17.idade}, ${animal17.dieta}, ${animal17.porte}")
+ println("${animal18.especie}, ${animal18.raca}, ${animal18.idade}, ${animal18.dieta}, ${animal18.porte}")
+ println("${animal19.especie}, ${animal19.raca}, ${animal19.idade}, ${animal19.dieta}, ${animal19.porte}")
+ println("${animal20.especie}, ${animal20.raca}, ${animal20.idade}, ${animal20.dieta}, ${animal20.porte}")
+ 
+ // Exercício -> Faça o catálogo (fictício) de animais que estão morando no zoológico de SP
+ // com no mínimo 20 animais, sem repetição de espécie.
+ 
+ var animalzin = Animal("cachorro", "shitzu", 8, "chinelo", "pequeno")
+ 
+ animalzin.comer(Animalzin.dieta)
+ 
+ var animalzao = Animal("Golfinho", "Boto", 50, "Sardinha", "pequeno") 
+ 
+animalzao.correr(120.0, "Acre") 
+ 
+ 
+}
+
+
+
+
+class Animal(var especie: String, //atributos que todo animalzin deve ter
+             var raca: String,
+             var idade: Int,
+             var dieta: String,
+             var porte: String){
+
+    // Estrutura de um método:
+    // fun (nomeDoParametro: tipoDoParametro){
+    // ações
+    // }
+    
+    fun comer(alimento: String){
+        println("$especie comendo $alimento, yumm")
+    }
+    
+   fun correr(velocidade: Double, lugar: String){
+       println("$especie correndo em uma velocidade de $velocidadekm/h no lugar")
+}
+
+class Pessoa {
+    
+    var nome = ""
+    var idade = 0
+    var altura = 0
+    var peso = 0
+    var profissao = "" 
+    var nacionalidade = ""
+    var idioma = ""
+    
+}
